@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countDown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>countDown Timer</h1>
+        <p>choose the date</p>
+        <input type="datetime-local" id="choosen-time">
+        <button onclick="startCountdown()">start countDown</button> 
+        <p>time remaining:</p>
+        <div class="remaining" id="countdown">
+            <div class="time-box">
+                <div id="day" class="time-number"></div>
+                <div class="divider"></div>
+                <div class="time-label">Days</div>
+            </div>
+            <div class="time-box">
+                <div id="hours" class="time-number"></div>
+                <div class="divider"></div>
+                <div class="time-label">Hours</div>
+            </div>
+            <div class="time-box">
+                <div  id="Minutes"class="time-number"></div>
+                <div class="divider"></div>
+                <div class="time-label">Minutes</div>
+            </div>
+            <div class="time-box">
+                <div id="Seconds" class="time-number"></div>
+                <div class="divider"></div>
+                <div class="time-label">Seconds</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+
+</body>
+</html>
