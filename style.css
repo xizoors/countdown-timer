@@ -13,6 +13,8 @@ body{
 }
 .container{
     background: #fff;
+    width: 320px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,6 +24,7 @@ body{
 }
 .container h1{
     font-size: 30px;
+    text-align: center;
     text-transform: uppercase;
     margin-bottom: 15px;
     padding: 20px;
